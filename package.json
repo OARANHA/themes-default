@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aivopro/themes-default.git"
+    "url": "https://github.com/OARANHA/themes-default.git"
   },
   "author": "Aikeedo Team",
   "license": "SEE LICENSE IN <LICENSE>",
   "bugs": {
-    "url": "https://github.com/aivopro/themes-default/issues",
+    "url": "https://github.com/OARANHA/themes-default/issues",
     "email": "support@aivopro.com"
   },
-  "homepage": "https://github.com/aivopro/themes-default#readme",
+  "homepage": "https://github.com/OARANHA/themes-default#readme",
   "devDependencies": {
     "archiver": "^7.0.1",
     "autoprefixer": "^10.4.20",

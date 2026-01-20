@@ -61,7 +61,7 @@ default/
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/aivopro/themes-default.git my-theme
+   git clone https://github.com/OARANHA/themes-default.git my-theme
    cd my-theme
    ```
 
@@ -291,7 +291,7 @@ If theme assets aren't loading:
 ### Need Help?
 
 - Review [Aivopro Documentation](https://docs.aikeedo.com)
-- Check [GitHub Issues](https://github.com/aivopro/themes-default/issues)
+- Check [GitHub Issues](https://github.com/OARANHA/themes-default/issues)
 
 ## Quick Customization Guide (No Build Required)
 

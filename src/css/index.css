@@ -1,0 +1,65 @@
+@import 'tailwindcss/base';
+@import 'typography.css';
+
+@import 'tailwindcss/components';
+@import 'components.css';
+@import 'button.css';
+@import 'float.css';
+
+@import 'tailwindcss/utilities';
+
+@import 'presets.css';
+@import 'image-generator.css';
+
+@layer base {
+  a {
+    @apply underline-offset-2 hover:underline;
+  }
+}
+
+@layer utilities {
+  [x-cloak] {
+    @apply hidden;
+  }
+
+  .bg-clip-text {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@keyframes enter {
+  from {
+    @apply grayscale opacity-0;
+    transform: scale(var(--scale, 1)) translateX(var(--x, 0px));
+    grayscale: 1;
+  }
+}
+
+.enter,
+.enter3 {
+  --x: 0;
+  --scale: 0.95;
+  animation: enter both linear;
+  animation-timeline: view(0px);
+  animation-range: entry;
+}
+
+@media only screen and (min-width: 768px) {
+  /* .enter,
+  .enter3 {
+    --scale: 1.05;
+  } */
+
+  .enter3 {
+    &:nth-child(3n + 1 of &) {
+      --x: 36px;
+      transform-origin: left center;
+    }
+
+    &:nth-child(3n + 3 of &) {
+      --x: -36px;
+      transform-origin: right center;
+    }
+  }
+}

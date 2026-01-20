@@ -1,0 +1,41 @@
+{
+    "name": "aivopro/default",
+    "description": "Default theme for Aivopro",
+    "version": "2.0.1",
+    "type": "aivopro-theme",
+    "homepage": "https://aivopro.com",
+    "time": "2025-05-03",
+    "license": "AIVOPRO",
+    "authors": [
+        {
+            "name": "Aivopro",
+            "email": "hey@aivopro.com",
+            "homepage": "https://aivopro.com",
+            "role": "Owner"
+        }
+    ],
+    "support": {
+        "chat": "https://aivopro.com/",
+        "docs": "https://docs.aivopro.com/",
+        "email": "support@aivopro.com",
+        "forum": "https://aivopro.com/",
+        "issues": "https://aivopro.com/",
+        "rss": "https://aivopro.com/",
+        "source": "https://github.com/aivopro",
+        "wiki": "https://docs.aivopro.com/"
+    },
+    "require": {
+        "aivopro/composer": "^1.0.0"
+    },
+    "extra": {
+        "title": "Default",
+        "description": "Default theme for Aivopro",
+        "logo": "https://aivopro.com/",
+        "icon": "https://aivopro.com/",
+        "public": [
+            "assets",
+            ".vite"
+        ]
+    },
+    "autoload": {}
+}
